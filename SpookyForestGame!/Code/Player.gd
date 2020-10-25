@@ -2,13 +2,13 @@ extends KinematicBody
 
 onready var head = $Head
 
-var speed = 5
+var speed = 7
 var acceleration = 20
 var gravity = 20
 #var Jump = 6
 var mouse_sensitivity = 0.1
 
-var jump = 5
+var jump = 2
 
 var direction = Vector3()
 var velocity = Vector3()

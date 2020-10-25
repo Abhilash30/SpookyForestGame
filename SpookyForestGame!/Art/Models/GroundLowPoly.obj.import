@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/GroundLowPoly.obj-a493053650b580b8f666e82f002f408f.mesh"
+
+[deps]
+
+files=[ "res://.import/GroundLowPoly.obj-a493053650b580b8f666e82f002f408f.mesh" ]
+
+source_file="res://Art/Models/GroundLowPoly.obj"
+dest_files=[ "res://.import/GroundLowPoly.obj-a493053650b580b8f666e82f002f408f.mesh", "res://.import/GroundLowPoly.obj-a493053650b580b8f666e82f002f408f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

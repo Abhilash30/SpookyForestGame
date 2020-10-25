@@ -42,7 +42,7 @@ func _ready():
 	
 	
 func _process(delta):
-	#$Rotate.rotate_y(delta * 0.5)
+	$Rotate.rotate_y(delta * 0.5)
 	pass
 	
 	

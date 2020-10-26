@@ -50,5 +50,5 @@ func _process(delta):
 		direction += transform.basis.x
 		
 	direction = direction.normalized()
-	move_and_slide(direction * speed, Vector3.UP)
-	move_and_slide(fall, Vector3.UP)
+	#move_and_slide(direction * speed, Vector3.UP)
+	#move_and_slide(fall, Vector3.UP)

@@ -7,9 +7,9 @@ func _ready():
 	noise.octaves = 6
 	
 	var plane_mesh = PlaneMesh.new()
-	plane_mesh.size = Vector2(400, 400)
-	plane_mesh.subdivide_depth = 200
-	plane_mesh.subdivide_width = 200
+	plane_mesh.size = Vector2(700, 700)
+	plane_mesh.subdivide_depth = 100
+	plane_mesh.subdivide_width = 60
 	
 	var surface_tool = SurfaceTool.new()
 	surface_tool.create_from(plane_mesh, 0)
@@ -40,9 +40,12 @@ func _ready():
 	
 	add_child(mesh_instance)
 	
+	mesh_instance.mesh = surface_tool.commit()
+	mesh_instance.create_trimesh_collision()
+	
 	
 func _process(delta):
-	$Rotate.rotate_y(delta * 0.5)
+	#$Rotate.rotate_y(delta * 0.5)
 	pass
 	
 	
